@@ -1,0 +1,32 @@
+<header class="font-rubik">
+    <div class="logo">
+        <a href="#marnie"><img src="assets/img/logo3.png"></a>
+    </div>
+    <div *ngIf="!showBurgerMenu">
+        <a class="link" href="#aboutme">About me</a>
+        <a class="link" href="#skills">Skills</a>
+        <a class="link" href="#projects">Projects</a>
+    </div>
+    <div *ngIf="showBurgerMenu">
+        <img src="assets/img/burger_menu.svg">
+    </div>
+</header>
+
+<div class="menu-overlay">
+    <div class="overlay-header">
+        <div class="logo">
+            <img src="assets/img/logo3.png">
+        </div>
+        <div class="close-overlay">
+            <img src="assets/img/close-menu.svg">
+        </div>
+    </div>
+    <div class="overlay-body">
+        <div class="overlay-links font-rubik">
+            <a class="link" href="#aboutme">About me</a>
+            <a class="link" href="#skills">Skills</a>
+            <a class="link" href="#projects">Projects</a>
+            <a class="link" href="#contact">Contact</a>
+        </div>
+    </div>
+</div>

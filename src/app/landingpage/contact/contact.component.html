@@ -1,0 +1,29 @@
+<div class="contact font-syne">
+    <h2>Contact</h2>
+    <div class="contact-content">
+        <div class="contact-text">
+            <p>Get in</p>
+            <p>Touch With </p>
+            <p>Me</p>
+        </div>
+        <div>
+            <form #kontaktForm="ngForm">
+                <div>
+                    <input type="text" id="name" placeholder="Your name" ngModel name="name" required>
+                </div>
+                <div>
+                    <input type="email" id="email" placeholder="Your email" ngModel name="email" required email>
+                </div>
+                <div>
+                    <textarea id="nachricht" placeholder="Your message" ngModel name="nachricht" required></textarea>
+                </div>
+                <div>
+                    <input class="checkbox" type="checkbox" required>
+                    <span>I've read the
+                    <a routerLink="/privacypolicy">privacy policy </a> and agree to the processing of my data as outlined.</span>
+                </div>
+                <button type="submit" [disabled]="!kontaktForm.form.valid">Send message</button>
+            </form>
+        </div>
+    </div>
+</div>

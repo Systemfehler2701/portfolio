@@ -1,0 +1,19 @@
+.imprint {
+    color: #fff;
+    height: 71vh;
+    padding: 5px 150px;
+    overflow-y: scroll;
+}
+
+@media (max-width: 1000px) {
+    .imprint {
+        padding: 50px 50px;
+    }
+}
+
+@media (max-width: 400px) {
+    .imprint {
+        padding: 20px 20px;
+        font-size: 0.8rem;
+    }
+}

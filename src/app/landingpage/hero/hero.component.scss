@@ -1,0 +1,102 @@
+.introduce {
+    background-image: url(/assets/img/shadow2.png);
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: 20px;
+    background-size: 600px;
+    padding: 0 150px;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    p {
+        color: #FF9142;
+        font-size: 1.9rem !important;
+    }
+}
+
+.iam {
+    display: flex;
+    align-items: center;
+    width: 95px;
+    transform: rotate(270deg);
+    font-size: 2.8rem;
+}
+
+.name {
+    font-size: 3.8rem;
+    font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+    .introduce {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 815px) {
+    .header p {
+        font-size: 1.5rem !important;
+    }
+    .iam {
+        width: 70px;
+        font-size: 2rem;
+    }
+    .name {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 661px) {
+    .header p {
+        font-size: 1.2rem !important;
+    }
+    .iam {
+        width: 50px;
+        font-size: 1.5rem;
+    }
+    .name {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 515px) {
+    .header p {
+        font-size: 1rem !important;
+    }
+    .iam {
+        width: 38px;
+        font-size: 1rem;
+    }
+    .name {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .introduce {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 324px) {
+    .header p {
+        font-size: 0.8rem !important;
+    }
+    .iam {
+        width: 31px;
+        font-size: 0.9rem;
+    }
+    .name {
+        font-size: 1.2rem;
+    }
+}

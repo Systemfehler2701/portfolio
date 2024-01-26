@@ -1,0 +1,107 @@
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background-color: #1A1A1A;
+    box-shadow: 0px 2px 4px 0px #FF9142;
+    padding: 0 150px;
+    color: #fff;
+    font-size: 1rem;
+    z-index: 5;
+    .logo {
+        display: flex;
+        img {
+            width: 150px;
+            cursor: pointer;
+        }
+    }
+    div {
+        display: flex;
+        gap: 35px;
+        .link {
+            text-decoration: none;
+            color: #fff;
+            opacity: 0.5;
+            cursor: pointer;
+            &:hover {
+                color: #FF9142;
+                opacity: 1;
+            }
+        }
+        img {
+            width: 25px;
+            cursor: pointer;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    header {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 400px) {
+    header {
+        padding: 0 20px;
+    }
+    .logo {
+        img {
+            width: 100px !important;
+        }
+    }
+    div {
+        img {
+            width: 20px !important;
+        }
+    }
+}
+
+.menu-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    background-color: #1a1a1ada;
+    .overlay-header {
+        display: flex;
+        flex-direction: row;
+        height: 80px;
+        padding: 0 20px;
+        align-items: center;
+        justify-content: space-between;
+        .logo {
+            display: flex;
+        }
+    }
+    .overlay-body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .overlay-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        a {
+            font-size: 1.5rem;
+            text-decoration: none;
+            color: #fff;
+            &:hover {
+                color: #FF9142;
+            }
+        }
+    }
+}

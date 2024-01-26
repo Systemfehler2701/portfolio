@@ -1,0 +1,27 @@
+<div class="my-skills font-syne">
+    <div class="skill-list">
+        <div class="skills">
+            <div class="skill" *ngFor="let skill of mySkills; let i = index;">
+                <img src="assets/img/{{ skill.img }}.svg">
+                <p>{{ skill.name }}</p>
+            </div>
+        </div>
+    </div>
+    <div class="my-skills-text">
+        <div>
+            <h2>My skills</h2>
+        </div>
+        <div>
+            <span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Consequatur consequuntur numquam, reiciendis, fugit aliquid error, 
+                tempora nesciunt cum delectus maiores non illum a dolore dicta exercitationem 
+                perspiciatis nihil sunt. Officiis?
+            </span>
+        </div>
+        <div class="button">
+            <app-button caption="Get in touch" link="#contact" target="">
+            </app-button>
+        </div>
+    </div>
+</div>

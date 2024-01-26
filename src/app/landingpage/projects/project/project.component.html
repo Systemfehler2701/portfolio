@@ -1,0 +1,25 @@
+<div class="project" [ngClass]="{'reverse-row': isReverseRow(index)}">
+    <div class="project-scene">
+        <div class="project-screen">
+            <img src="assets/gifs/{{project.img }}.gif">
+        </div>
+        <img class="project-screen-img" src="assets/img/projectframe.png">
+    </div>
+    <div class="project-text">
+        <div class="project-headline">
+            <h3>{{ project.title }}</h3>
+        </div>
+        <div class="project-skill">
+            <h4>{{ project.skills }}</h4>
+        </div>
+        <div class="project-info">
+            <span>{{ project.info }}</span>
+        </div>
+        <div class="button">
+            <app-button caption="Live test" link="{{ project.demo}}">
+            </app-button>
+            <app-button caption="Github" link="{{ project.git}}">
+            </app-button>
+        </div>
+    </div>
+</div>

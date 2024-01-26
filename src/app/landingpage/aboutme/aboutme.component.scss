@@ -1,0 +1,60 @@
+    .about-me {
+        background-image: url(/assets/img/shadow2.png);
+        background-repeat: no-repeat;
+        background-position-x: 100px;
+        background-position-y: 200px;
+        background-size: 600px;
+        display: flex;
+        height: 90vh;
+        padding: 0 150px;
+        color: #fff;
+        justify-content: space-between;
+        align-items: center;
+        gap: 70px;
+        img {
+            height: 350px;
+            border-radius: 30px;
+        }
+    }
+    
+    .about-me-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+    }
+    
+    .about-me-img {
+        display: flex;
+        border: 1px solid #FF9142;
+        border-radius: 30px;
+        height: fit-content;
+    }
+    
+    @media (max-width: 1000px) {
+        .about-me {
+            padding: 0 50px;
+        }
+    }
+    
+    @media (max-width: 785px) {
+        .about-me {
+            flex-direction: column-reverse;
+            padding: 10px 50px;
+            height: 84vh;
+            gap: 50px;
+        }
+        .button {
+            display: flex;
+            justify-content: center;
+        }
+    }
+    
+    @media (max-width: 400px) {
+        .about-me {
+            padding: 10px 20px;
+            img {
+                height: 260px;
+            }
+        }
+    }

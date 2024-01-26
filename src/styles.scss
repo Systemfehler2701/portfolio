@@ -1,1 +1,60 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 100%;
+    background-color: #1A1A1A;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.font-syne {
+    font-family: 'Syne';
+}
+
+.font-rubik {
+    font-family: 'Rubik';
+}
+
+h2 {
+    font-family: 'Syne';
+    color: #fff;
+    font-size: 3.5rem;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1A1A1A;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FF9142;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+}
+
+@media (max-width: 800px) {
+    h2 {
+        font-size: 2.4rem;
+    }
+}
+
+@media (max-width: 560px) {
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 483px) {
+    h2 {
+        font-size: 1.8rem;
+    }
+}

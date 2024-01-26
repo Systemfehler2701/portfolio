@@ -1,0 +1,62 @@
+.my-projects {
+    background-image: url(/assets/img/shadow2.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 70px;
+    background-size: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 150px;
+    color: #fff;
+    .project-headline {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        gap: 20px;
+    }
+    h3 {
+        color: #FF9142;
+    }
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+@media (max-width: 1000px) {
+    .my-projects {
+        padding: 10px 50px;
+    }
+}
+
+@media (max-width: 800px) {
+    .project-headline {
+        padding-top: 40px;
+        height: 25vh !important;
+        h3 {
+            display: flex;
+            text-align: center;
+        }
+    }
+    .projects {
+        gap: 50px;
+    }
+}
+
+@media (max-width: 446px) {
+    h2 {
+        display: flex;
+        text-align: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .my-projects {
+        padding: 10px 20px;
+    }
+}

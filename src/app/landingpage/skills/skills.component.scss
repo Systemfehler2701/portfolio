@@ -1,0 +1,97 @@
+        .my-skills {
+            background-image: url(/assets/img/shadow1.png);
+            background-repeat: no-repeat;
+            background-position-x: 260px;
+            background-position-y: 6px;
+            background-size: 600px;
+            height: 100vh;
+            display: flex;
+            padding: 0 150px;
+            color: #fff;
+            gap: 70px;
+        }
+        
+        .skill-list {
+            display: flex;
+            align-items: center;
+        }
+        
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 40px 60px;
+            .skill {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 62px;
+                gap: 10px;
+                img {
+                    height: 40px;
+                }
+                p {
+                    text-align: center;
+                }
+            }
+        }
+        
+        .my-skills-text {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 40px;
+        }
+        
+        @media (max-width: 1000px) {
+            .my-skills {
+                padding: 0 50px;
+            }
+        }
+        
+        @media (max-width: 850px) {
+            .skills {
+                gap: 40px 40px;
+            }
+        }
+        
+        @media (max-width: 785px) {
+            .my-skills {
+                flex-direction: column-reverse;
+                gap: 30px;
+                padding: 10px 50px;
+                height: 84vh;
+            }
+            .my-skills-text {
+                align-items: center;
+                gap: 25px;
+            }
+            .skill-list {
+                justify-content: center;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .skills {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        
+        @media (max-width: 400px) {
+            .my-skills {
+                padding: 10px 20px;
+            }
+            .my-skills-text {
+                gap: 20px;
+            }
+            .skills {
+                gap: 20px 20px;
+                .skill {
+                    img {
+                        height: 30px;
+                    }
+                    p {
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+        }
