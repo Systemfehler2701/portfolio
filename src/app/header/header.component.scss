@@ -8,7 +8,7 @@ header {
     justify-content: space-between;
     height: 80px;
     background-color: #1A1A1A;
-    box-shadow: 0px 2px 4px 0px #FF9142;
+    border-bottom: 3px solid #FF9142;
     padding: 0 150px;
     color: #fff;
     font-size: 1rem;
@@ -46,6 +46,15 @@ header {
     }
 }
 
+@media (max-width: 1000px) {
+    header {
+        div {
+            font-size: 0.9rem;
+            gap: 20px;
+        }
+    }
+}
+
 @media (max-width: 400px) {
     header {
         padding: 0 20px;
@@ -63,7 +72,7 @@ header {
 }
 
 .menu-overlay {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     display: flex;

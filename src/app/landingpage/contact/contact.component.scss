@@ -31,6 +31,32 @@
     }
 }
 
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
+}
+
+.hint {
+    height: 20px;
+    font-size: 1rem;
+    color: #E61C40;
+}
+
+.contact-checkbox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
+}
+
+.invalid-field {
+    border: 1px solid #E61C40 !important;
+}
+
+.valid-field {
+    border: 1px solid #70E61C !important;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -46,18 +72,18 @@ form {
         input,
         textarea {
             font-family: 'Syne';
-            background-color: #1A1A1A;
+            background-color: #1A1A1A !important;
             color: #fff;
+            font-size: 1rem;
             border: solid 1px #FF9142;
             border-radius: 10px;
             width: 400px;
             padding: 10px;
-            cursor: pointer;
             &:hover {
                 border: solid 1px #fff;
             }
         }
-        span {
+        label {
             font-size: 0.7rem;
         }
         a {
@@ -70,16 +96,61 @@ form {
         height: 200px;
         resize: none;
     }
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
+    input:-webkit-autofill:active {
+        -webkit-box-shadow: 0 0 0 30px #1A1A1A inset !important;
+    }
+    input:-webkit-autofill {
+        -webkit-text-fill-color: #fff !important;
+    }
     button {
         background-color: #FF9142;
-        border: none;
+        border: 1px solid #FF9142;
         border-radius: 30px;
         padding: 12px 25px;
         color: #fff;
         width: fit-content;
+        cursor: pointer;
         &:hover {
             background-color: unset;
             border: 1px solid #FF9142;
+        }
+        &:disabled {
+            filter: grayscale(0.6);
+        }
+    }
+}
+
+.custom-checkbox {
+    input {
+        display: none;
+        &:checked~.checkmark:after {
+            display: block;
+        }
+    }
+    .checkmark {
+        position: relative;
+        height: 15px;
+        width: 15px;
+        background-color: #1A1A1A;
+        display: inline-block;
+        margin-right: 10px;
+        border: 2px solid #ff8800;
+        border-radius: 3px;
+        cursor: pointer;
+        &:after {
+            content: "";
+            position: absolute;
+            display: none;
+            left: 4px;
+            top: -1px;
+            width: 5px;
+            height: 10px;
+            border: 1px solid rgb(240, 129, 25);
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
         }
     }
 }

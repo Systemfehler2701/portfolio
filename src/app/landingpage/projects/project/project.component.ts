@@ -3,11 +3,10 @@ import { ButtonComponent } from '../../../button/button.component';
 import { Project } from '../../../interfaces/project';
 import { CommonModule } from '@angular/common';
 
-
 @Component({
   selector: 'app-project',
   standalone: true,
-  imports: [CommonModule, ButtonComponent],
+  imports: [CommonModule, ButtonComponent,],
   templateUrl: './project.component.html',
   styleUrl: './project.component.scss'
 })

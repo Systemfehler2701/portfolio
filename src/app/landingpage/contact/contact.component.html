@@ -7,22 +7,42 @@
             <p>Me</p>
         </div>
         <div>
-            <form #kontaktForm="ngForm">
-                <div>
-                    <input type="text" id="name" placeholder="Your name" ngModel name="name" required>
+            <form #myForm="ngForm" name="contact-form" (ngSubmit)="onSubmit(myForm)">
+                <div class="contact-form">
+                    <input type="text" id="name" placeholder="Your name" #name="ngModel" name="name" ngModel required [ngClass]="{'valid-field': name.valid, 'invalid-field': name.invalid && name.touched}">
+                    <div class="hint">
+                        <span *ngIf="name.invalid && name.touched">Your name is required.</span>
+                    </div>
                 </div>
-                <div>
-                    <input type="email" id="email" placeholder="Your email" ngModel name="email" required email>
+                <div class="contact-form">
+                    <input type="email" id="email" placeholder="Your email" #email="ngModel" name="email" ngModel required email [ngClass]="{'valid-field': email.valid, 'invalid-field': email.invalid && email.touched}">
+                    <div class="hint">
+                        <span *ngIf="email.invalid && email.touched">Your email is required.</span>
+                    </div>
                 </div>
-                <div>
-                    <textarea id="nachricht" placeholder="Your message" ngModel name="nachricht" required></textarea>
+                <div class="contact-form">
+                    <textarea name="textAreaField" placeholder="Your message" ngModel required #textAreaField="ngModel" [ngClass]="{'valid-field': textAreaField.valid, 'invalid-field': textAreaField.invalid && textAreaField.touched}"></textarea>
+                    <div class="hint">
+                        <span *ngIf="textAreaField.invalid && textAreaField.touched">Your message is empty.</span>
+                    </div>
                 </div>
-                <div>
-                    <input class="checkbox" type="checkbox" required>
-                    <span>I've read the
-                    <a routerLink="/privacypolicy">privacy policy </a> and agree to the processing of my data as outlined.</span>
+                <div class="contact-checkbox">
+                    <div>
+                        <label class="custom-checkbox">
+                            <input id="privacy-policy-checkbox" class="checkbox" name="privacy-policy" ngModel type="checkbox" #checkbox="ngModel" required>
+                            <span class="checkmark"></span>
+                        </label>
+                        <label for="privacy-policy-checkbox">I've read the
+                            <a routerLink="/privacypolicy">privacy policy </a> and agree to the processing of my data as outlined.
+                        </label>
+                    </div>
+                    <div class="hint">
+                        <span *ngIf="checkbox.invalid && email.valid && name.valid && textAreaField.valid">Please accept the privacy policy.</span>
+                    </div>
                 </div>
-                <button type="submit" [disabled]="!kontaktForm.form.valid">Send message</button>
+
+
+                <button type="submit" [disabled]="myForm.invalid">Send message</button>
             </form>
         </div>
     </div>

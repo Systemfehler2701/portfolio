@@ -6,27 +6,28 @@
         <a class="link" href="#aboutme">About me</a>
         <a class="link" href="#skills">Skills</a>
         <a class="link" href="#projects">Projects</a>
+        <a class="link" href="#contact">Contact</a>
     </div>
-    <div *ngIf="showBurgerMenu">
+    <div *ngIf="showBurgerMenu" (click)="showOverlay()">
         <img src="assets/img/burger_menu.svg">
     </div>
 </header>
 
-<div class="menu-overlay">
+<div class="menu-overlay" [@openClose]="showOverlayMenu ? 'open' : 'closed'">
     <div class="overlay-header">
         <div class="logo">
             <img src="assets/img/logo3.png">
         </div>
-        <div class="close-overlay">
+        <div class="close-overlay" (click)="hideOverlay()">
             <img src="assets/img/close-menu.svg">
         </div>
     </div>
     <div class="overlay-body">
         <div class="overlay-links font-rubik">
-            <a class="link" href="#aboutme">About me</a>
-            <a class="link" href="#skills">Skills</a>
-            <a class="link" href="#projects">Projects</a>
-            <a class="link" href="#contact">Contact</a>
+            <a class="link" href="#aboutme" (click)="hideOverlay()">About me</a>
+            <a class="link" href="#skills" (click)="hideOverlay()">Skills</a>
+            <a class="link" href="#projects" (click)="hideOverlay()">Projects</a>
+            <a class="link" href="#contact" (click)="hideOverlay()">Contact</a>
         </div>
     </div>
 </div>
