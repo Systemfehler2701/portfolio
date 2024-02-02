@@ -40,10 +40,12 @@
                         <span *ngIf="checkbox.invalid && email.valid && name.valid && textAreaField.valid">Please accept the privacy policy.</span>
                     </div>
                 </div>
-
-
-                <button type="submit" [disabled]="myForm.invalid">Send message</button>
+                <button type="submit" [disabled]="myForm.invalid" (click)="showSuccess()">Send message</button>
             </form>
+            <div data-aos="fade-up" *ngIf="toastService.showToast" class="toast">
+                <span>{{ toastService.message }}</span>
+            </div>
+
         </div>
     </div>
 </div>

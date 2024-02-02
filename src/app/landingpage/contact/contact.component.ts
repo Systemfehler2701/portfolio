@@ -1,7 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { FormControl, FormGroup, FormsModule, NgForm } from '@angular/forms';
+import { FormsModule, NgForm } from '@angular/forms';
 import { RouterLink } from '@angular/router';
+import { ToastService } from '../../services/toast.service';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
 
 @Component({
   selector: 'app-contact',
@@ -12,6 +16,12 @@ import { RouterLink } from '@angular/router';
 })
 export class ContactComponent {
 
+  constructor(public toastService: ToastService) { }
+
+  showSuccess() {
+    this.toastService.show('Message send!');
+    Aos.refresh();
+  }
   onSubmit(form: NgForm) {
     console.log(form.value);
   }

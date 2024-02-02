@@ -17,7 +17,7 @@ header {
         display: flex;
         img {
             width: 150px;
-            cursor: pointer;
+            cursor: auto;
         }
     }
     div {
@@ -80,7 +80,7 @@ header {
     width: 100vw;
     height: 100vh;
     z-index: 10;
-    background-color: #1a1a1ada;
+    background-color: #1a1a1aec;
     .overlay-header {
         display: flex;
         flex-direction: row;
@@ -90,6 +90,9 @@ header {
         justify-content: space-between;
         .logo {
             display: flex;
+            img {
+                width: 150px;
+            }
         }
     }
     .overlay-body {
