@@ -58,8 +58,6 @@
             .my-skills {
                 flex-direction: column-reverse;
                 gap: 30px;
-                padding: 40px 50px;
-                height: 84vh;
             }
             .my-skills-text {
                 align-items: center;
@@ -78,7 +76,8 @@
         
         @media (max-width: 400px) {
             .my-skills {
-                padding: 10px 20px;
+                padding: 0 20px;
+                height: 85vh;
             }
             .my-skills-text {
                 gap: 20px;
