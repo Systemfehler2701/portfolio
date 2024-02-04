@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, inject } from '@angular/core';
+import { AfterViewInit, Component, OnInit, inject } from '@angular/core';
 import { FormsModule, NgForm } from '@angular/forms';
 import { RouterLink } from '@angular/router';
 import { ToastService } from '../../services/toast.service';
@@ -15,9 +15,15 @@ import { HttpClient } from '@angular/common/http';
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.scss'
 })
-export class ContactComponent {
+export class ContactComponent implements AfterViewInit, OnInit {
 
   constructor(public toastService: ToastService) { }
+  ngOnInit(): void {
+  }
+
+  ngAfterViewInit() {
+    Aos.init();
+  }
 
   http = inject(HttpClient);
 
@@ -27,7 +33,7 @@ export class ContactComponent {
     message: "",
   }
 
-  mailTest = true;
+  mailTest = false;
 
   post = {
     endPoint: 'https://marnie-lindenthal.de/sendMail.php',
@@ -46,7 +52,7 @@ export class ContactComponent {
       this.http.post(this.post.endPoint, this.post.body(this.contactData))
         .subscribe({
           next: (response) => {
-
+            console.log(response);
             form.resetForm();
           },
           error: (error) => {
@@ -62,6 +68,5 @@ export class ContactComponent {
 
   showSuccess() {
     this.toastService.show('Message send!');
-    Aos.refresh();
   }
 }

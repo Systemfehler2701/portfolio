@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { AfterViewInit, Component, Input, OnInit } from '@angular/core';
 import { ButtonComponent } from '../../../button/button.component';
 import { Project } from '../../../interfaces/project';
 import { CommonModule } from '@angular/common';
@@ -12,12 +12,11 @@ import 'aos/dist/aos.css';
   templateUrl: './project.component.html',
   styleUrl: './project.component.scss',
 })
-export class ProjectComponent {
+export class ProjectComponent implements AfterViewInit, OnInit {
   @Input() project!: Project;
   @Input() index: number = 0;
 
-  isReverseRow(index: number): boolean {
-    return index % 2 === 1;
+  ngOnInit(): void {
   }
 
   ngAfterViewInit() {
@@ -25,4 +24,9 @@ export class ProjectComponent {
       startEvent: 'scroll'
     });
   }
+
+  isReverseRow(index: number): boolean {
+    return index % 2 === 1;
+  }
+
 }
