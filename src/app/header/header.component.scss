@@ -12,17 +12,34 @@ header {
     padding: 0 150px;
     color: #fff;
     font-size: 1rem;
-    z-index: 5;
+    z-index: 11;
     .logo {
         display: flex;
+        a {
+            transform-origin: bottom;
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
         img {
             width: 150px;
-            cursor: auto;
+            cursor: pointer;
         }
     }
     div {
         display: flex;
         gap: 35px;
+        span {
+            color: #fff;
+            opacity: 0.5;
+        }
+        .lang {
+            cursor: pointer;
+            &:hover {
+                color: #FF9142;
+                opacity: 1;
+            }
+        }
         .link {
             text-decoration: none;
             color: #fff;
@@ -79,7 +96,7 @@ header {
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    z-index: 10;
+    z-index: 12;
     background-color: #1a1a1aec;
     .overlay-header {
         display: flex;
@@ -107,6 +124,14 @@ header {
         align-items: center;
         flex-direction: column;
         gap: 20px;
+        span {
+            font-size: 1.5rem;
+            color: #fff;
+            cursor: pointer;
+            &:hover {
+                color: #FF9142;
+            }
+        }
         a {
             font-size: 1.5rem;
             text-decoration: none;

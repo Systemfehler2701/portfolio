@@ -1,8 +1,10 @@
 .imprint {
     color: #fff;
-    height: 71vh;
-    padding: 50px 150px;
+    padding: 200px 150px;
     overflow-y: scroll;
+    a {
+        color: #FF9142;
+    }
 }
 
 @media (max-width: 1000px) {

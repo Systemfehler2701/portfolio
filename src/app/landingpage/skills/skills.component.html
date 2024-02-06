@@ -1,7 +1,7 @@
 <div class="my-skills font-syne">
     <div class="skill-list">
         <div class="skills">
-            <div class="skill" *ngFor="let skill of mySkills; let i = index;">
+            <div data-aos="zoom-in" data-aos-delay="500" class="skill" *ngFor="let skill of mySkills; let i = index;">
                 <img src="assets/img/{{ skill.img }}.svg">
                 <p>{{ skill.name }}</p>
             </div>
@@ -9,15 +9,15 @@
     </div>
     <div class="my-skills-text">
         <div>
-            <h2>My skills</h2>
+            <h2>{{ 'SKILLS.H2' | translate }}</h2>
         </div>
         <div>
             <span>
-                I learned various front-end development skills and gained a lot of experience in different areas of front-end technologies, which enable me to create various great projects.
+                {{ 'SKILLS.TEXT' | translate }}
             </span>
         </div>
         <div class="button">
-            <app-button caption="Get in touch" link="#contact" target="">
+            <app-button caption="{{ 'SKILLS.BUTTON' | translate }}" link="#contact" target="">
             </app-button>
         </div>
     </div>

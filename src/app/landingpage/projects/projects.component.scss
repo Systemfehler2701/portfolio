@@ -37,6 +37,10 @@
 }
 
 @media (max-width: 800px) {
+    .my-projects {
+        background-position-x: 40px;
+        background-size: 400px;
+    }
     .project-headline {
         padding-top: 40px;
         height: 25vh !important;
@@ -57,11 +61,5 @@
     h2 {
         display: flex;
         text-align: center;
-    }
-}
-
-@media (max-width: 400px) {
-    .my-projects {
-        padding: 0 20px;
     }
 }

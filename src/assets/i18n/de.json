@@ -1,0 +1,46 @@
+{
+    "HEADER": {
+        "ABOUT-ME": "Über mich",
+        "SKILLS": "Fähigkeiten",
+        "PROJECTS": "Projekte",
+        "CONTACT": "Kontakt"
+    },
+    "HERO": {
+        "I-AM": "Ich bin",
+        "TEXT": "FRONTEND ENTWICKLER",
+        "BUTTON": "Lass uns sprechen!"
+    },
+    "ABOUT-ME": {
+        "H2": "Lernen sie mich näher kennen",
+        "TEXT1": "Willkommen in meinem Portfolio! Seit 2022 vertiefe ich meine Fähigkeiten, um ein Frontend-Entwickler zu werden, und beschäftige mich auch mit Backend-Entwicklung. Meine Leidenschaft für Softwareentwicklung wurde durch meine Jahre als Zahntechniker geweckt, wo ich intensiv mit PC- und CAD-Technologien gearbeitet habe. Diese Erfahrungen entfachten mein Interesse an Technologie und Entwicklung, was mich motivierte, das Feld der Softwareentwicklung zu erkunden.",
+        "TEXT2": "In diesem Portfolio präsentiere ich verschiedene Projekte, die während meiner Ausbildung abgeschlossen wurden und meine Fähigkeiten und Kenntnisse in der Frontend-Entwicklung demonstrieren. Mein Wechsel in die Softwareentwicklung war ein bewusster Schritt, der von starker Motivation getrieben wurde. Nachdem ich Herausforderungen beim Work-Life-Balance in der Zahntechnologie gegenüberstand, habe ich nun einen Weg gefunden, der meinen beruflichen und persönlichen Zielen entspricht.",
+        "BUTTON": "Entdecke meine Arbeiten"
+    },
+    "SKILLS": {
+        "H2": "Meine Fähigkeiten",
+        "TEXT": "Ich habe verschiedene Fähigkeiten in der Frontend-Entwicklung erlernt und viel Erfahrung in verschiedenen Bereichen der Frontend-Technologien gesammelt, die es mir ermöglichen, verschiedene großartige Projekte zu erstellen.",
+        "BUTTON": "Kontaktiere mich"
+    },
+    "PROJECTS": {
+        "H2": "Highlights meiner Projekte",
+        "H3": "Diese Seite ist eine Auswahl meiner Arbeiten - bitte fühlen Sie sich frei, sie auszuprobieren."
+    },
+    "CONTACT": {
+        "H2": "Kontakt",
+        "TEXT": "Nimm Kontakt mit mir auf",
+        "PLACEHOLDER-NAME": "Dein Name",
+        "PLACEHOLDER-EMAIL": "Deine E-Mail",
+        "PLACEHOLDER-MESSAGE": "Deine Nachricht",
+        "PP-TEXT1": "Ich habe die",
+        "PP": "Datenschutzerklärung",
+        "PP-TEXT2": "gelesen und stimme der Verarbeitung meiner Daten wie dargelegt zu.",
+        "BUTTON": "Nachricht senden",
+        "HINT-NAME": "Dein Name ist erforderlich.",
+        "HINT-EMAIL": "Deine E-Mail ist erforderlich.",
+        "HINT-MESSAGE": "Deine Nachricht ist leer.",
+        "HINT-PP": "Bitte akzeptiere die Datenschutzerklärung."
+    },
+    "FOOTER": {
+        "IMPRINT-LINK": "Impressum"
+    }
+}

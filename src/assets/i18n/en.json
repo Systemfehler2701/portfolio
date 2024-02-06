@@ -1,0 +1,46 @@
+{
+    "HEADER": {
+        "ABOUT-ME": "About me",
+        "SKILLS": "Skills",
+        "PROJECTS": "Projects ",
+        "CONTACT": "Contact"
+    },
+    "HERO": {
+        "I-AM": "I am",
+        "TEXT": "FRONTEND DEVELOPER",
+        "BUTTON": "Let's talk!"
+    },
+    "ABOUT-ME": {
+        "H2": "Let’s get know about me closer",
+        "TEXT1": "Welcome to my portfolio! Since 2022, I've been advancing my skills to become a frontend developer, also delving into backend development. My passion for software development was sparked by my years as a dental technician, where I was deeply engaged with PC and CAD technologies. These experiences ignited my interest in technology and development, motivating me to explore the field of software development.",
+        "TEXT2": "In this portfolio, I showcase various projects completed during my training, demonstrating my abilities and knowledge in frontend development. My move into software development was deliberate, fueled by strong motivation. After facing challenges in work-life balance in dental technology, I've now found a path that aligns with my professional and personal goals.",
+        "BUTTON": "Explore my works"
+    },
+    "SKILLS": {
+        "H2": "My skills",
+        "TEXT": " I learned various front-end development skills and gained a lot of experience in different areas of front-end technologies, which enable me to create various great projects.",
+        "BUTTON": "Get in touch"
+    },
+    "PROJECTS": {
+        "H2": "My Project Highlights",
+        "H3": "This page is a sample of my work - please feel free to try them out."
+    },
+    "CONTACT": {
+        "H2": "Contact",
+        "TEXT": "Get in Touch With Me",
+        "PLACEHOLDER-NAME": "Your name",
+        "PLACEHOLDER-EMAIL": "Your email",
+        "PLACEHOLDER-MESSAGE": "Your message",
+        "PP-TEXT1": "I've read the",
+        "PP": "privacy policy",
+        "PP-TEXT2": " and agree to the processing of my data as outlined.",
+        "BUTTON": "Send message",
+        "HINT-NAME": "Your name is required.",
+        "HINT-EMAIL": "Your email is required.",
+        "HINT-MESSAGE": "Your message is empty.",
+        "HINT-PP": "Please accept the privacy policy."
+    },
+    "FOOTER": {
+        "IMPRINT-LINK": "Imprint"
+    }
+}

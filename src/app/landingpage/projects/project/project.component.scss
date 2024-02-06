@@ -1,6 +1,6 @@
 .project {
     display: flex;
-    gap: 80px;
+    gap: 150px;
 }
 
 .project-scene {
@@ -28,11 +28,12 @@ h4 {
     flex-direction: column;
     justify-content: center;
     gap: 20px;
+    max-width: 400px;
 }
 
 .button {
     display: flex;
-    gap: 80px;
+    gap: 50px;
 }
 
 .reverse-row {

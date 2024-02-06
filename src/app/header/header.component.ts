@@ -2,11 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { CommonModule } from '@angular/common';
 import { trigger, state, style, transition, animate } from '@angular/animations';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, TranslateModule],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss',
   animations: [
@@ -27,7 +28,16 @@ export class HeaderComponent implements OnInit {
 
   showBurgerMenu = false;
   showOverlayMenu = false;
-  constructor(private responsive: BreakpointObserver) { }
+  translate!: TranslateService;
+
+  constructor(private responsive: BreakpointObserver, translate: TranslateService) {
+    this.translate = translate;
+  }
+
+  changeLanguage(lang: string) {
+    this.translate.use(lang);
+  }
+
 
   ngOnInit(): void {
     this.responsive.observe([

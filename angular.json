@@ -31,7 +31,8 @@
                         ],
                         "styles": [
                             "src/styles.scss",
-                            "src/fonts.scss"
+                            "src/fonts.scss",
+                            "node_modules/aos/dist/aos.css"
                         ],
                         "scripts": []
                     },
@@ -40,12 +41,12 @@
                             "budgets": [{
                                     "type": "initial",
                                     "maximumWarning": "500kb",
-                                    "maximumError": "1mb"
+                                    "maximumError": "2mb"
                                 },
                                 {
                                     "type": "anyComponentStyle",
-                                    "maximumWarning": "2kb",
-                                    "maximumError": "4kb"
+                                    "maximumWarning": "4kb",
+                                    "maximumError": "6kb"
                                 }
                             ],
                             "outputHashing": "all"

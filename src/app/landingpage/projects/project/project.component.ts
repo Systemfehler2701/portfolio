@@ -4,11 +4,12 @@ import { Project } from '../../../interfaces/project';
 import { CommonModule } from '@angular/common';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-project',
   standalone: true,
-  imports: [CommonModule, ButtonComponent,],
+  imports: [CommonModule, ButtonComponent, TranslateModule],
   templateUrl: './project.component.html',
   styleUrl: './project.component.scss',
 })

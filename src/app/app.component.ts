@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ImprintComponent } from './imprint/imprint.component';
 import { PrivacypolicyComponent } from './privacypolicy/privacypolicy.component';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
@@ -23,4 +24,8 @@ import { PrivacypolicyComponent } from './privacypolicy/privacypolicy.component'
 })
 export class AppComponent {
   title = 'portfolio';
+
+  constructor(translate: TranslateService) {
+    translate.setDefaultLang('en');
+  }
 }

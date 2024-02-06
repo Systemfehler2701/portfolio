@@ -8,7 +8,7 @@
             display: flex;
             padding: 0 150px;
             color: #fff;
-            gap: 70px;
+            gap: 100px;
         }
         
         .skill-list {
@@ -39,6 +39,7 @@
             display: flex;
             justify-content: center;
             flex-direction: column;
+            max-width: 600px;
             gap: 40px;
         }
         
@@ -58,6 +59,8 @@
             .my-skills {
                 flex-direction: column-reverse;
                 gap: 30px;
+                background-position-x: 40px;
+                background-size: 400px;
             }
             .my-skills-text {
                 align-items: center;
