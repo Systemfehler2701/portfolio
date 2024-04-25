@@ -33,6 +33,10 @@ header {
             color: #fff;
             opacity: 0.5;
         }
+        .slash {
+            color: #fff;
+            opacity: 1;
+        }
         .lang {
             cursor: pointer;
             &:hover {
@@ -55,6 +59,11 @@ header {
             cursor: pointer;
         }
     }
+}
+
+.active {
+    color: #FF9142 !important;
+    opacity: 1 !important;
 }
 
 @media (max-width: 1000px) {

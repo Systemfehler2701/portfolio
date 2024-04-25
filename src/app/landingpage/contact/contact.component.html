@@ -38,7 +38,7 @@
                         <span *ngIf="checkbox.invalid && email.valid && name.valid && textAreaField.valid">{{ 'CONTACT.HINT-PP' | translate }}</span>
                     </div>
                 </div>
-                <button type="submit" [disabled]="contactForm.invalid" (click)="showSuccess()">{{ 'CONTACT.BUTTON' | translate }}</button>
+                <button type="submit" [disabled]="contactForm.invalid">{{ 'CONTACT.BUTTON' | translate }}</button>
             </form>
             <div data-aos="fade-up" *ngIf="toastService.showToast" class="toast">
                 <span>{{ toastService.message }}</span>

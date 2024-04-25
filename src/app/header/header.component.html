@@ -3,11 +3,11 @@
         <a href="/"><img src="assets/img/logo3.png"></a>
     </div>
     <div *ngIf="!showBurgerMenu">
-        <a class="link" href="#aboutme">{{ 'HEADER.ABOUT-ME' | translate }}</a>
-        <a class="link" href="#skills">{{ 'HEADER.SKILLS' | translate }}</a>
-        <a class="link" href="#projects">{{ 'HEADER.PROJECTS' | translate }}</a>
-        <a class="link" href="#contact">{{ 'HEADER.CONTACT' | translate }}</a>
-        <p><span class="lang" (click)="changeLanguage('en')">EN</span><span> / </span><span class="lang" (click)="changeLanguage('de')">DE</span></p>
+        <a class="link" [ngClass]="{'active': activeLink === '#aboutme'}" href="#aboutme" (click)="setActiveLink('#aboutme')">{{ 'HEADER.ABOUT-ME' | translate }}</a>
+        <a class="link" [ngClass]="{'active': activeLink === '#skills'}" href="#skills" (click)="setActiveLink('#skills')">{{ 'HEADER.SKILLS' | translate }}</a>
+        <a class="link" [ngClass]="{'active': activeLink === '#projects'}" href="#projects" (click)="setActiveLink('#projects')">{{ 'HEADER.PROJECTS' | translate }}</a>
+        <a class="link" [ngClass]="{'active': activeLink === '#contact'}" href="#contact" (click)="setActiveLink('#contact')">{{ 'HEADER.CONTACT' | translate }}</a>
+        <p><span class="lang" [ngClass]="{'active': currentLanguage === 'en'}" (click)="changeLanguage('en')">EN</span><span class="slash"> / </span><span class="lang" [ngClass]="{'active': currentLanguage === 'de'}" (click)="changeLanguage('de')">DE</span></p>
     </div>
     <div *ngIf="showBurgerMenu" (click)="showOverlay()">
         <img src="assets/img/burger_menu.svg">
@@ -25,11 +25,12 @@
     </div>
     <div class="overlay-body">
         <div class="overlay-links font-rubik">
-            <a class="link" href="#aboutme" (click)="hideOverlay()">{{ 'HEADER.ABOUT-ME' | translate }}</a>
-            <a class="link" href="#skills" (click)="hideOverlay()">{{ 'HEADER.SKILLS' | translate }}</a>
-            <a class="link" href="#projects" (click)="hideOverlay()">{{ 'HEADER.PROJECTS' | translate }}</a>
-            <a class="link" href="#contact" (click)="hideOverlay()">{{ 'HEADER.CONTACT' | translate }}</a>
-            <p><span class="lang" (click)="changeLanguage('en')">EN</span><span> / </span><span class="lang" (click)="changeLanguage('de')">DE</span></p>
+            <a class="link" [ngClass]="{'active': activeLink === '#aboutme'}" href="#aboutme" (click)="hideOverlay(); setActiveLink('#aboutme')">{{ 'HEADER.ABOUT-ME' | translate }}</a>
+            <a class="link" [ngClass]="{'active': activeLink === '#skills'}" href="#skills" (click)="hideOverlay(); setActiveLink('#skills')">{{ 'HEADER.SKILLS' | translate }}</a>
+            <a class="link" [ngClass]="{'active': activeLink === '#projects'}" href="#projects" (click)="hideOverlay(); setActiveLink('#projects')">{{ 'HEADER.PROJECTS' | translate }}</a>
+            <a class="link" [ngClass]="{'active': activeLink === '#contact'}" href="#contact" (click)="hideOverlay(); setActiveLink('#contact')">{{ 'HEADER.CONTACT' | translate }}</a>
+            <p><span class="lang" [ngClass]="{'active': currentLanguage === 'en'}" (click)="changeLanguage('en'); hideOverlay()">EN</span><span class="slash"> / </span><span class="lang" [ngClass]="{'active': currentLanguage === 'de'}" (click)="changeLanguage('de'); hideOverlay()">DE</span></p>
+
         </div>
     </div>
 </div>

@@ -7,23 +7,35 @@
     },
     "HERO": {
         "I-AM": "I am",
-        "TEXT": "FRONTEND DEVELOPER",
+        "TEXT": "FRONTEND-DEVELOPER",
         "BUTTON": "Let's talk!"
     },
     "ABOUT-ME": {
         "H2": "Let’s get know about me closer",
-        "TEXT1": "Welcome to my portfolio! Since 2022, I've been advancing my skills to become a frontend developer, also delving into backend development. My passion for software development was sparked by my years as a dental technician, where I was deeply engaged with PC and CAD technologies. These experiences ignited my interest in technology and development, motivating me to explore the field of software development.",
-        "TEXT2": "In this portfolio, I showcase various projects completed during my training, demonstrating my abilities and knowledge in frontend development. My move into software development was deliberate, fueled by strong motivation. After facing challenges in work-life balance in dental technology, I've now found a path that aligns with my professional and personal goals.",
+        "TEXT1": "Welcome to my portfolio! I am a frontend developer and am currently also training in the backend. My passion for software development was awakened by my intensive work with PC and CAD technologies in dental technology. These experiences sparked my interest in software development, which motivated me to start further training.",
+        "TEXT2": "In this portfolio I present various projects that I have worked on individually and in groups, demonstrating my skills and knowledge in front-end development. My move into software development was a conscious step driven by strong motivation. After facing work-life balance challenges in dental technology, I have now found a path that meets my professional and personal goals.",
         "BUTTON": "Explore my works"
     },
     "SKILLS": {
         "H2": "My skills",
-        "TEXT": " I learned various front-end development skills and gained a lot of experience in different areas of front-end technologies, which enable me to create various great projects.",
+        "TEXT": "I have learned various skills in front-end development and gained a lot of experience in different areas of software development that enable me to create great projects.",
         "BUTTON": "Get in touch"
     },
     "PROJECTS": {
         "H2": "My Project Highlights",
         "H3": "This page is a sample of my work - please feel free to try them out."
+    },
+    "PROJECT1": {
+        "DESCRIPTION": "A simple Jump-and-Run game based on an object-oriented approach. Help sharkie to find coins and poison bottles to fight against the killer whale."
+    },
+    "PROJECT2": {
+        "DESCRIPTION": "Based on the PokéAPI a simple library that provides and catalogues Pokemon information."
+    },
+    "PROJECT3": {
+        "DESCRIPTION": "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories."
+    },
+    "PROJECT4": {
+        "DESCRIPTION": "Chat-Messenger application in the style of Slack for team communication. You can create channels or chat directly with your co-workers."
     },
     "CONTACT": {
         "H2": "Contact",

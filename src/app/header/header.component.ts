@@ -29,19 +29,26 @@ export class HeaderComponent implements OnInit {
   showBurgerMenu = false;
   showOverlayMenu = false;
   translate!: TranslateService;
+  activeLink: string = '';
+  currentLanguage: string = 'en';
 
   constructor(private responsive: BreakpointObserver, translate: TranslateService) {
     this.translate = translate;
   }
 
   changeLanguage(lang: string) {
+    this.currentLanguage = lang;
     this.translate.use(lang);
   }
 
+  setActiveLink(link: string): void {
+    this.activeLink = link;
+  }
 
   ngOnInit(): void {
     this.responsive.observe([
-      Breakpoints.XSmall,
+      Breakpoints.Small,
+      Breakpoints.XSmall
     ])
       .subscribe(result => {
 

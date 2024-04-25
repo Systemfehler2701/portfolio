@@ -55,7 +55,7 @@ export class SkillsComponent implements AfterViewInit, OnInit {
     },
     {
       img: "api",
-      name: "Rest-Api",
+      name: "Rest-API",
     },
     {
       img: "scrum",

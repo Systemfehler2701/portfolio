@@ -7,38 +7,50 @@
     },
     "HERO": {
         "I-AM": "Ich bin",
-        "TEXT": "FRONTEND ENTWICKLER",
-        "BUTTON": "Lass uns sprechen!"
+        "TEXT": "FRONTEND-ENTWICKLER",
+        "BUTTON": "Sprechen Sie mit mir!"
     },
     "ABOUT-ME": {
-        "H2": "Lernen sie mich näher kennen",
-        "TEXT1": "Willkommen in meinem Portfolio! Seit 2022 vertiefe ich meine Fähigkeiten, um ein Frontend-Entwickler zu werden, und beschäftige mich auch mit Backend-Entwicklung. Meine Leidenschaft für Softwareentwicklung wurde durch meine Jahre als Zahntechniker geweckt, wo ich intensiv mit PC- und CAD-Technologien gearbeitet habe. Diese Erfahrungen entfachten mein Interesse an Technologie und Entwicklung, was mich motivierte, das Feld der Softwareentwicklung zu erkunden.",
-        "TEXT2": "In diesem Portfolio präsentiere ich verschiedene Projekte, die während meiner Ausbildung abgeschlossen wurden und meine Fähigkeiten und Kenntnisse in der Frontend-Entwicklung demonstrieren. Mein Wechsel in die Softwareentwicklung war ein bewusster Schritt, der von starker Motivation getrieben wurde. Nachdem ich Herausforderungen beim Work-Life-Balance in der Zahntechnologie gegenüberstand, habe ich nun einen Weg gefunden, der meinen beruflichen und persönlichen Zielen entspricht.",
-        "BUTTON": "Entdecke meine Arbeiten"
+        "H2": "Lernen Sie mich besser kennen",
+        "TEXT1": "Willkommen in meinem Portfolio! Ich bin Frontend-Entwicklerin, und bilde mich zur Zeit auch im Backend weiter. Meine Leidenschaft für Softwareentwicklung wurde durch meine intensive Arbeit mit PC- und CAD-Technologien in der Zahntechnik geweckt. Diese Erfahrungen weckten mein Interesse an der Softwareentwicklung, was mich motivierte, eine Weiterbildung zu beginnen.",
+        "TEXT2": "In diesem Portfolio präsentiere ich verschiedene Projekte, die ich in Einzel- und Gruppenarbeiten erarbeitet habe und so meine Fähigkeiten und Kenntnisse in der Frontend-Entwicklung demonstriere. Mein Wechsel in die Softwareentwicklung war ein bewusster Schritt, der von starker Motivation getrieben wurde. Nachdem ich Herausforderungen der Work-Life-Balance in der Zahntechnik gegenüberstand, habe ich nun einen Weg gefunden, der meinen beruflichen und persönlichen Zielen entspricht.",
+        "BUTTON": "Entdecken Sie meine Arbeiten"
     },
     "SKILLS": {
         "H2": "Meine Fähigkeiten",
-        "TEXT": "Ich habe verschiedene Fähigkeiten in der Frontend-Entwicklung erlernt und viel Erfahrung in verschiedenen Bereichen der Frontend-Technologien gesammelt, die es mir ermöglichen, verschiedene großartige Projekte zu erstellen.",
-        "BUTTON": "Kontaktiere mich"
+        "TEXT": "Ich habe verschiedene Fähigkeiten in der Frontend-Entwicklung erlernt und viel Erfahrung in verschiedenen Bereichen der Softwareentwicklung gesammelt, die es mir ermöglichen, großartige Projekte zu erstellen.",
+        "BUTTON": "Kontaktieren Sie mich"
     },
     "PROJECTS": {
-        "H2": "Highlights meiner Projekte",
-        "H3": "Diese Seite ist eine Auswahl meiner Arbeiten - bitte fühlen Sie sich frei, sie auszuprobieren."
+        "H2": "Projekt-Highlights",
+        "H3": "Hier stelle ich meine Arbeiten vor - schauen Sie sich gerne um."
+    },
+    "PROJECT1": {
+        "DESCRIPTION": "Ein einfaches Jump-and-Run-Spiel, das auf einem objektorientierten Ansatz basiert. Hilf Sharkie, Münzen und Giftflaschen zu finden, um gegen den Killerwal zu kämpfen."
+    },
+    "PROJECT2": {
+        "DESCRIPTION": "Basierend auf der PokéAPI eine einfache Bibliothek, die Pokemon-Informationen bereitstellt und katalogisiert."
+    },
+    "PROJECT3": {
+        "DESCRIPTION": "Vom Kanban-System inspirierter Aufgabenmanager. Erstellen und organisieren Sie Aufgaben mithilfe von Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu."
+    },
+    "PROJECT4": {
+        "DESCRIPTION": "Chat-Messenger-Anwendung im Stil von Slack für die Teamkommunikation. Sie können Kanäle erstellen oder direkt mit Ihren Kollegen chatten."
     },
     "CONTACT": {
         "H2": "Kontakt",
-        "TEXT": "Nimm Kontakt mit mir auf",
-        "PLACEHOLDER-NAME": "Dein Name",
-        "PLACEHOLDER-EMAIL": "Deine E-Mail",
-        "PLACEHOLDER-MESSAGE": "Deine Nachricht",
+        "TEXT": "Nehmen Sie Kontakt mit mir auf",
+        "PLACEHOLDER-NAME": "Ihr Name",
+        "PLACEHOLDER-EMAIL": "Ihre E-Mail",
+        "PLACEHOLDER-MESSAGE": "Ihre Nachricht",
         "PP-TEXT1": "Ich habe die",
         "PP": "Datenschutzerklärung",
         "PP-TEXT2": "gelesen und stimme der Verarbeitung meiner Daten wie dargelegt zu.",
         "BUTTON": "Nachricht senden",
-        "HINT-NAME": "Dein Name ist erforderlich.",
-        "HINT-EMAIL": "Deine E-Mail ist erforderlich.",
-        "HINT-MESSAGE": "Deine Nachricht ist leer.",
-        "HINT-PP": "Bitte akzeptiere die Datenschutzerklärung."
+        "HINT-NAME": "Ihr Name ist erforderlich.",
+        "HINT-EMAIL": "Ihre E-Mail ist erforderlich.",
+        "HINT-MESSAGE": "Ihre Nachricht ist leer.",
+        "HINT-PP": "Bitte akzeptieren Sie die Datenschutzerklärung."
     },
     "FOOTER": {
         "IMPRINT-LINK": "Impressum"
