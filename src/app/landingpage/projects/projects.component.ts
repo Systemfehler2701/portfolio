@@ -20,7 +20,7 @@ export class ProjectsComponent {
       title: "Sharkie",
       skills: "JavaScript | HTML | CSS",
       info: "PROJECT1.DESCRIPTION",
-      demo: "https://marnie-lindenthal.de/Sharkie/index.html",
+      demo: "https://sharkie.marnie-lindenthal.de",
       git: "https://github.com/Systemfehler2701/Sharky",
     },
     {
@@ -28,7 +28,7 @@ export class ProjectsComponent {
       title: "Pokedex",
       skills: "JavaScript | HTML | CSS | API",
       info: "PROJECT2.DESCRIPTION",
-      demo: "https://marnie-lindenthal.de/Pokedex/index.html",
+      demo: "https://pokedex.marnie-lindenthal.de",
       git: "https://github.com/Systemfehler2701/Pokedex",
     },
     {
@@ -36,7 +36,7 @@ export class ProjectsComponent {
       title: "Join",
       skills: "JavaScript | HTML | CSS",
       info: "PROJECT3.DESCRIPTION",
-      demo: "https://marnie-lindenthal.developerakademie.net/Join/",
+      demo: "https://join.marnie-lindenthal.de/",
       git: "https://github.com/Systemfehler2701/Join",
     },
     {
@@ -44,7 +44,7 @@ export class ProjectsComponent {
       title: "DA Bubble",
       skills: "Angular | TypeScript | HTML | CSS | Firebase",
       info: "PROJECT4.DESCRIPTION",
-      demo: "https://marnie-lindenthal.developerakademie.net/Join/",
+      demo: "https://marnie-lindenthal.de/dabubble",
       git: "https://github.com/Systemfehler2701/DABubble",
     }
   ]

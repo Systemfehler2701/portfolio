@@ -11,14 +11,14 @@
         "BUTTON": "Let's talk!"
     },
     "ABOUT-ME": {
-        "H2": "Let’s get know about me closer",
-        "TEXT1": "Welcome to my portfolio! I am a frontend developer and am currently also training in the backend. My passion for software development was awakened by my intensive work with PC and CAD technologies in dental technology. These experiences sparked my interest in software development, which motivated me to start further training.",
+        "H2": "Let`s get to know me closer",
+        "TEXT1": "Welcome to my portfolio! I am a frontend developer and I am currently also training in the backend. My passion for software development was awakened by my intensive work with PC and CAD technologies in dental technology. These experiences sparked my interest in software development, which motivated me to start a further training.",
         "TEXT2": "In this portfolio I present various projects that I have worked on individually and in groups, demonstrating my skills and knowledge in front-end development. My move into software development was a conscious step driven by strong motivation. After facing work-life balance challenges in dental technology, I have now found a path that meets my professional and personal goals.",
         "BUTTON": "Explore my works"
     },
     "SKILLS": {
         "H2": "My skills",
-        "TEXT": "I have learned various skills in front-end development and gained a lot of experience in different areas of software development that enable me to create great projects.",
+        "TEXT": "I have learned various skills in front-end development, and gained a lot of experience in different areas of software development that enable me to create great projects.",
         "BUTTON": "Get in touch"
     },
     "PROJECTS": {
@@ -39,7 +39,7 @@
     },
     "CONTACT": {
         "H2": "Contact",
-        "TEXT": "Get in Touch With Me",
+        "TEXT": "Get in Touch with Me",
         "PLACEHOLDER-NAME": "Your name",
         "PLACEHOLDER-EMAIL": "Your email",
         "PLACEHOLDER-MESSAGE": "Your message",
