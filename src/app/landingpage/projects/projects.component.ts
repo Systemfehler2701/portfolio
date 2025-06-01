@@ -44,7 +44,7 @@ export class ProjectsComponent {
       title: "DA Bubble",
       skills: "Angular | TypeScript | HTML | CSS | Firebase",
       info: "PROJECT4.DESCRIPTION",
-      demo: "https://marnie-lindenthal.de/dabubble",
+      demo: "https://dabubble.marnie-lindenthal.de/",
       git: "https://github.com/Systemfehler2701/DABubble",
     }
   ]

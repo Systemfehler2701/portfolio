@@ -26,32 +26,44 @@ export class SkillsComponent implements AfterViewInit, OnInit {
 
   mySkills: Skill[] = [
     {
-      img: "angular",
-      name: "Angular",
+      img: "html",
+      name: "HTML",
     },
     {
-      img: "ts",
-      name: "TypeScript",
+      img: "css",
+      name: "CSS",
     },
     {
       img: "js",
       name: "JavaScript",
     },
     {
-      img: "html",
-      name: "HTML",
+      img: "ts",
+      name: "TypeScript",
     },
     {
-      img: "firebase",
-      name: "Firebase",
+      img: "angular",
+      name: "Angular",
+    },
+    {
+      img: "python",
+      name: "Python",
+    },
+    {
+      img: "django",
+      name: "Django",
+    },
+    {
+      img: "php",
+      name: "Php",
+    },
+    {
+      img: "laravel",
+      name: "Laravel",
     },
     {
       img: "git",
       name: "GIT",
-    },
-    {
-      img: "css",
-      name: "CSS",
     },
     {
       img: "api",
@@ -64,6 +76,10 @@ export class SkillsComponent implements AfterViewInit, OnInit {
     {
       img: "material",
       name: "Material design",
+    },
+    {
+      img: "firebase",
+      name: "Firebase",
     },
   ];
 
