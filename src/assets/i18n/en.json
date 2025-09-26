@@ -38,8 +38,8 @@
         "DESCRIPTION": "Chat-Messenger application in the style of Slack for team communication. You can create channels or chat directly with your co-workers."
     },
     "CONTACT": {
-        "H2": "Contact",
-        "TEXT": "Get in touch with me",
+        "H2": "Let's connect",
+        "TEXT": "I look forward to your message and to connecting with you personally.",
         "PLACEHOLDER-NAME": "Your Name",
         "PLACEHOLDER-EMAIL": "Your Email",
         "PLACEHOLDER-MESSAGE": "Your Message",
