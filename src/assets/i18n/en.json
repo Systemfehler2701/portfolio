@@ -8,22 +8,22 @@
     "HERO": {
         "I-AM": "I am",
         "TEXT": "FRONTEND-DEVELOPER",
-        "BUTTON": "Let's talk!"
+        "BUTTON": "This is me"
     },
     "ABOUT-ME": {
-        "H2": "Let`s get to know me closer",
-        "TEXT1": "Welcome to my portfolio! I am a frontend developer and I am currently also training in the backend. My passion for software development was awakened by my intensive work with PC and CAD technologies in dental technology. These experiences sparked my interest in software development, which motivated me to start a further training.",
-        "TEXT2": "In this portfolio I present various projects that I have worked on individually and in groups, demonstrating my skills and knowledge in front-end development. My move into software development was a conscious step driven by strong motivation. After facing work-life balance challenges in dental technology, I have now found a path that meets my professional and personal goals.",
-        "BUTTON": "Explore my works"
+        "H2": "Get to know me",
+        "TEXT1": "My passion for software development was sparked during my work with PC and CAD technologies in dental technology. This experience motivated me to pursue further training as a web developer. In this portfolio, I present projects that I have developed myself.",
+        "TEXT2": "Transitioning into software development was a deliberate decision, inspired by curiosity and a strong interest in future-oriented solutions in the field of modern applications.",
+        "BUTTON": "Explore my projects"
     },
     "SKILLS": {
         "H2": "My skills",
-        "TEXT": "I have learned various skills in front-end development, and gained a lot of experience in different areas of software development that enable me to create great projects.",
-        "BUTTON": "Get in touch"
+        "TEXT": "With the stacks listed here, I enjoy turning creative ideas into practical and functional projects.",
+        "BUTTON": "Let's talk"
     },
     "PROJECTS": {
         "H2": "My Project Highlights",
-        "H3": "This page is a sample of my work - please feel free to try them out."
+        "H3": "Take a look at my projects and explore what I've been working on."
     },
     "PROJECT1": {
         "DESCRIPTION": "A simple Jump-and-Run game based on an object-oriented approach. Help sharkie to find coins and poison bottles to fight against the killer whale."
@@ -39,14 +39,14 @@
     },
     "CONTACT": {
         "H2": "Contact",
-        "TEXT": "Get in Touch with Me",
-        "PLACEHOLDER-NAME": "Your name",
-        "PLACEHOLDER-EMAIL": "Your email",
-        "PLACEHOLDER-MESSAGE": "Your message",
+        "TEXT": "Get in touch with me",
+        "PLACEHOLDER-NAME": "Your Name",
+        "PLACEHOLDER-EMAIL": "Your Email",
+        "PLACEHOLDER-MESSAGE": "Your Message",
         "PP-TEXT1": "I've read the",
         "PP": "privacy policy",
         "PP-TEXT2": " and agree to the processing of my data as outlined.",
-        "BUTTON": "Send message",
+        "BUTTON": "Send Message",
         "HINT-NAME": "Your name is required.",
         "HINT-EMAIL": "Your email is required.",
         "HINT-MESSAGE": "Your message is empty.",

@@ -8,22 +8,22 @@
     "HERO": {
         "I-AM": "Ich bin",
         "TEXT": "FRONTEND-ENTWICKLERIN",
-        "BUTTON": "Sprechen Sie mit mir!"
+        "BUTTON": "Das bin ich"
     },
     "ABOUT-ME": {
-        "H2": "Lernen Sie mich besser kennen",
-        "TEXT1": "Willkommen in meinem Portfolio! Ich bin Frontend-Entwicklerin und bilde mich zur Zeit auch im Backend weiter. Meine Leidenschaft für Softwareentwicklung wurde durch meine intensive Arbeit mit PC- und CAD-Technologien in der Zahntechnik geweckt. Diese Erfahrungen weckten mein Interesse an der Softwareentwicklung, was mich motivierte, eine Weiterbildung zu beginnen.",
-        "TEXT2": "In diesem Portfolio präsentiere ich verschiedene Projekte, die ich in Einzel- und Gruppenarbeiten erarbeitet habe und so meine Fähigkeiten und Kenntnisse in der Frontend-Entwicklung demonstriere. Mein Wechsel in die Softwareentwicklung war ein bewusster Schritt, der von starker Motivation getrieben wurde. Nachdem ich Herausforderungen der Work-Life-Balance in der Zahntechnik gegenüberstand, habe ich nun einen Weg gefunden, der meinen beruflichen und persönlichen Zielen entspricht.",
-        "BUTTON": "Entdecken Sie meine Arbeiten"
+        "H2": "Lernen Sie mich kennen",
+        "TEXT1": "Meine Leidenschaft für Softwareentwicklung wurde durch meine Arbeit mit PC- und CAD-Technologien in der Zahntechnik geweckt. Das motivierte mich dazu, eine Weiterbildung zur Webentwicklerin zu absolvieren. In diesem Portfolio stelle ich von mir entwickelte Projekte vor.",
+        "TEXT2": "Der Wechsel in die Softwareentwicklung ist ein bewusster Schritt, inspiriert von Neugier und dem Interesse an zukunftsfähigen Lösungen im Bereich moderner Anwendungen.",
+        "BUTTON": "Projekte entdecken"
     },
     "SKILLS": {
         "H2": "Meine Fähigkeiten",
-        "TEXT": "Ich habe verschiedene Fähigkeiten in der Frontend-Entwicklung erlernt und viel Erfahrung in verschiedenen Bereichen der Softwareentwicklung gesammelt, die es mir ermöglichen, großartige Projekte zu erstellen.",
+        "TEXT": "Mit den hier aufgeführten Stacks setze ich kreative Ideen in praxisnahe und funktionierende Projekte um.",
         "BUTTON": "Kontaktieren Sie mich"
     },
     "PROJECTS": {
         "H2": "Projekt-Highlights",
-        "H3": "Hier stelle ich meine Arbeiten vor - schauen Sie sich gerne um."
+        "H3": "Ein Blick auf meine Projekte - entdecken Sie, woran ich gearbeitet habe."
     },
     "PROJECT1": {
         "DESCRIPTION": "Ein einfaches Jump-and-Run-Spiel, das auf einem objektorientierten Ansatz basiert. Hilf Sharkie, Münzen und Giftflaschen zu finden, um gegen den Killerwal zu kämpfen."
@@ -32,14 +32,14 @@
         "DESCRIPTION": "Basierend auf der PokéAPI eine einfache Bibliothek, die Pokemon-Informationen bereitstellt und katalogisiert."
     },
     "PROJECT3": {
-        "DESCRIPTION": "Vom Kanban-System inspirierter Aufgabenmanager. Erstellen und organisieren Sie Aufgaben mithilfe von Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu."
+        "DESCRIPTION": "Vom Kanban-System inspirierter Aufgabenmanager. Erstellen und organisieren von Aufgaben mithilfe von Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu."
     },
     "PROJECT4": {
         "DESCRIPTION": "Chat-Messenger-Anwendung im Stil von Slack für die Teamkommunikation. Sie können Kanäle erstellen oder direkt mit Ihren Kollegen chatten."
     },
     "CONTACT": {
-        "H2": "Kontakt",
-        "TEXT": "Nehmen Sie Kontakt mit mir auf",
+        "H2": "Lernen wir uns kennen",
+        "TEXT": "Ich freue mich auf Ihre Nachricht und den persönlichen Austausch.",
         "PLACEHOLDER-NAME": "Ihr Name",
         "PLACEHOLDER-EMAIL": "Ihre E-Mail",
         "PLACEHOLDER-MESSAGE": "Ihre Nachricht",
